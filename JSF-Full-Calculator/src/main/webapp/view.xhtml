@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:jk="http://jalalkiswani.com/jsf">
+<h:head>
+	<title>Hello</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+</h:head>
+<h:body>
+	<div id="content">
+		<h:form>
+			<div class="cols">
+
+				<div class="in-out-row">
+					<label>Result: </label>
+					<h:outputText class="output" value="#{mbCalc.result}" />
+				</div>
+
+				<div class="row1">
+					<h:commandButton class="btn-style" value="C"
+						action="#{mbCalc.clear()}" />
+						
+					<h:commandButton class="btn-style" value="CE"
+						action="#{mbCalc.init()}" />
+				</div>
+
+				<div class="row2">
+					<h:commandButton class="btn-style" value="7"
+						action="#{mbCalc.addNumber('7')}" />
+						
+					<h:commandButton class="btn-style" value="8"
+						action="#{mbCalc.addNumber('8')}" />
+						
+					<h:commandButton class="btn-style" value="9"
+						action="#{mbCalc.addNumber('9')}" />
+						
+					<h:commandButton class="btn-style" value="+"
+						action="#{mbCalc.addOperation('+')}" />
+				</div>
+
+				<div class="row3">
+					<h:commandButton class="btn-style" value="4"
+						action="#{mbCalc.addNumber('4')}" />
+						
+					<h:commandButton class="btn-style" value="5"
+						action="#{mbCalc.addNumber('5')}" />
+						
+					<h:commandButton class="btn-style" value="6"
+						action="#{mbCalc.addNumber('6')}" />
+						
+					<h:commandButton class="btn-style" value="-"
+						action="#{mbCalc.addOperation('-')}" />
+				</div>
+
+				<div class="row4">
+					<h:commandButton class="btn-style" value="1"
+						action="#{mbCalc.addNumber('1')}" />
+						
+					<h:commandButton class="btn-style" value="2"
+						action="#{mbCalc.addNumber('2')}" />
+						
+					<h:commandButton class="btn-style" value="3"
+						action="#{mbCalc.addNumber('3')}" />
+						
+					<h:commandButton class="btn-style" value="*"
+						action="#{mbCalc.addOperation('*')}" />
+				</div>
+
+				<div class="row5">
+					<h:commandButton class="btn-style" value="0"
+						action="#{mbCalc.addNumber('0')}" />
+						
+					<h:commandButton class="btn-style" value="."
+						action="#{mbCalc.addNumber('.')}" />
+						
+					<h:commandButton class="btn-style" value="="
+						action="#{mbCalc.calculate()}" />
+						
+					<h:commandButton class="btn-style" value="/"
+						action="#{mbCalc.addOperation('/')}" />
+				</div>
+			</div>
+		</h:form>
+	</div>
+</h:body>
+</html>

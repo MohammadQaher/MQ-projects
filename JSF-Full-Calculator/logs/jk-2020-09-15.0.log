@@ -1,0 +1,20 @@
+2020-09-15 21:04:38,899 [main] INFO  c.jk.web.embedded.JKWebApplication - Starting web-server at port 8080....
+2020-09-15 21:04:39,144 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-15 21:04:39,259 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-09-15 21:04:39,269 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-15 21:04:39,269 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.43
+2020-09-15 21:04:39,450 [localhost-startStop-1] INFO  o.a.catalina.startup.ContextConfig - No global web.xml found
+2020-09-15 21:04:46,122 [localhost-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-15 21:04:46,170 [localhost-startStop-1] INFO  j.e.r.webcontainer.jsf.config - Initializing Mojarra 2.2.20 ( 20190731-0757 59754ac80c05d61848a08939ddd11a324f2345ac) for context ''
+2020-09-15 21:04:46,344 [localhost-startStop-1] INFO  j.e.r.webcontainer.jsf.application - JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+2020-09-15 21:04:46,485 [localhost-startStop-1] INFO  c.j.w.f.e.JKFacesExceptionHandlerFactory - initialized 
+2020-09-15 21:04:46,714 [localhost-startStop-1] INFO  c.j.w.faces.renderers.JKPreRenderer - initialized 
+2020-09-15 21:04:46,763 [localhost-startStop-1] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+2020-09-15 21:04:47,810 [localhost-startStop-1] INFO  com.jk.web.faces.mb.MB_Messages - initialized 
+2020-09-15 21:04:47,816 [localhost-startStop-1] INFO  com.jk.web.faces.mb.MB_Util - initialized 
+2020-09-15 21:04:47,840 [localhost-startStop-1] INFO  o.p.w.PostConstructApplicationEventListener - Running on PrimeFaces 8.0
+2020-09-15 21:04:47,841 [localhost-startStop-1] INFO  o.o.VersionLoggerEventListener - Using OmniFaces version 1.14.1
+2020-09-15 21:04:48,122 [localhost-startStop-1] INFO  com.jk.web.services.JKServiceConfig - RestServer initialized to packages com.jk.web.services
+2020-09-15 21:04:48,577 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-15 21:04:48,591 [main] INFO  c.jk.web.embedded.JKWebApplication - Web server started at URL :  http://localhost:8080
+2020-09-15 21:04:54,885 [http-nio-8080-exec-4] INFO  c.s.f.a.view.ViewScopeManager - CDI @ViewScoped bean functionality unavailable
